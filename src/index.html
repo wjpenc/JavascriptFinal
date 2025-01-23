@@ -1,0 +1,48 @@
+close<div class = "back">  
+  <nav>
+    <ul>
+      <li><a href="#aboutsection" id = "abtsec">About</a></li>
+      <li><a href="#mapsection" id = "mapsec">Map</a></li>
+      <li><a href="#joinsection" id = "joinsec">Join</a></li>
+    </ul>
+  </nav>
+    <div id="home" class = "homesection">
+      <h2>Will Pence</h2>
+    </div>
+    <div id="aboutsection" class = "section">
+        <h2>About</h2>
+        <p>Will Pence is a 16 year old student living in Indiana. Planning to pursue a career in computer science, he is enrolled in several STEM courses at his school, including AP CSA and AP Chemistry. Beyond computer science, he also is passionate in math and composition courses, taking AP Calculus and AP Seminar. After his graduation in 2 years, he plans to apply to Purdue University and major in both mathematics and computer science.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg/1200px-Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg" alt="" class = "mainimg" id = "mainimg">
+    </div>
+
+    <div id="mapsection" class = "sec2">
+        <h2>Past Projects</h2>
+        <div class = "carouselcont">
+          <button id = "prev" class = "prev">	&#8592; </button>
+          <div class = "carousel">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg/1200px-Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg" alt="" class = "carouselimg active" >
+            <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="" class = "carouselimg">
+            <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-autumn-nature-with-a-river-in-the-middle-of-the-forest-free-image.jpeg?w=600&quality=80" alt="" class = "carouselimg">
+            <img src="https://cdn.pixabay.com/photo/2023/03/15/20/46/background-7855413_640.jpg" alt="" class = "carouselimg">
+          </div>
+          <button id = "next" class = "next"> &#8594; </button>
+        </div>
+        <div class = "modal" id = "modal">
+          <span id = "close" class = "close">&times;</span>
+          <img class = "modalcont" id = "modalimg" src="" alt="">
+        </div>
+    </div>
+
+    <div id="joinsection" class = "sec2">
+        <h2>Join</h2>
+      <div class = outercont>
+        <div class = "inputcont">
+          <input type="text" id = "nameinput" placeholder = "Enter your name: ">
+          <input type="text" id = "emailinput" placeholder = "Provide your email: ">
+          <input type="text" id = "donationinput" placeholder = "Initial donation: ">
+        </div>
+        <button onclick = "addMember()" id = "joinbut">Join!</button>
+       </div>
+        <div class = "joinedcont" id = "members"></div>
+    </div>
+</div>
